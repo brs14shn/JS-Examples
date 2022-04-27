@@ -1,6 +1,6 @@
 
 
-
+#Calculator
 
 function maths(a,b,opt){
     if(opt=="+"){
