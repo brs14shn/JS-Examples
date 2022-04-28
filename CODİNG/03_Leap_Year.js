@@ -28,3 +28,6 @@ switch (month) {
 }
 
 console.log(dayCount); // 29
+
+//HİNT:== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.(if)
+//HİNT:=== is used for comparing two variables, but this operator also checks datatype and compares two values.(case)
