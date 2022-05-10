@@ -1,5 +1,6 @@
 
- /*Take 2 strings s1 and s2 including only letters from ato z. Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.*/
+ /*Take 2 strings s1 and s2 including only letters from ato z. 
+ Return a new sorted string, the longest possible, containing distinct letters - each taken only once - coming from s1 or s2.*/
 
 
 a = "xyaabbbccccdefww"
@@ -16,7 +17,7 @@ function longest(s1, s2) {
     let x = s1.concat(s2);
     let y = x.split("").sort();
     let z = new Set(y);
-    return (Array.from(z).join(""));  
+    return (Array.from(z).join("")); //The Array.from() method returns an array from any iterable object.
    
   }
    console.log(longest(a,b))
