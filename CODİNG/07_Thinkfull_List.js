@@ -20,10 +20,10 @@ function processData(data){
     let multi = 1;
     for (let x of data){
        let fat = x[0] - x[1];
-       empty_list.push(fat)
+       empty_list.push(fat) //[-3,-1,1]
     }
     for (let y of empty_list){
        multi *= y
         }
-    return multi
+    return multi //--->3
     } 
