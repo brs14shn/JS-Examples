@@ -2,7 +2,7 @@
  Her yanlışta hakkını bir düşürecek ve ARTTIR/AZALT diyerek kullanıcıyı yönlendirecektir.
  Sonuç olarak kullanıcının hakkı 0 olursa "Üzgünüz bilemediniz" eğer bildi ise "Tebrikler ... denemede bildiniz" yazacaktır.*/
 
-console.log('OYUN');
+console.log('TAHMİN OYUNU');
 
 let devam;
 do {
