@@ -17,3 +17,4 @@ if (number1<number2){
 }else{
     alert("number1<number2 olmalıdır!!!")
 }
+
