@@ -12,9 +12,26 @@ to be in the example below.
 Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, 
 but they are not capitalized in the same way he originally typed them.*/
 
-
-sentence="How can mirrors be real if our eyes aren't real"
+/**********************SOLUTİON-1****************************/
+sentence="How can mirrors be real if our eyes aren't real"  //capitalize
 
 updateUpperString=sentence.split(" ").map((element)=>{return element.charAt(0).toUpperCase()+element.slice(1)}).join(" ")
 
 console.log(updateUpperString)
+
+
+/**********************SOLUTİON-2****************************/
+function toCapitalize(){
+updateList=[]
+word=sentence.split(" ")
+
+for(i=0;i<word.length;i++){
+   words=word[i];
+   updateList.push(words[0].toUpperCase()+words.slice(1));
+   
+}
+
+return updateList.join(" ")
+
+}
+console.log(toCapitalize(sentence))
