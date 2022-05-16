@@ -20,8 +20,6 @@ updateUpperString=sentence.split(" ").map((element)=>{return element.charAt(0).t
 console.log(updateUpperString)
 
 
-
-
 /**********************SOLUTİON-2****************************/
 function toCapitalize(){
 updateList=[]

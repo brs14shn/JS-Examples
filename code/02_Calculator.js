@@ -50,5 +50,4 @@ switch(operator) {
     default:
         console.log('Invalid operator');
         break;
-
 }

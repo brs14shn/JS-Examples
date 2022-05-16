@@ -18,7 +18,6 @@ function total(){
     }
     return sonuc   
 }
-
 console.log(total(2,3,4,5,4)) 
 console.log(total(2,3,4,5,4,56,567))
 console.log(total(2,3,4,5,4,345,35,23,23,12,12))

@@ -7,6 +7,7 @@ of 5, between 2000 and 3200 (both included). The numbers
 obtained should be printed in a comma-separated sequence 
 on a single line.*/
 
+
 liste=[];
 
 for(let i=2000;i<=3200;i++){

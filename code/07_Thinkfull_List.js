@@ -10,6 +10,7 @@ Write a function process_data()/processData() that processes each sub-list like 
 [2, 5] --> 2 - 5 --> -3
 [3, 4] --> 3 - 4 --> -1
 [8, 7] --> 8 - 7 --> 1
+
 and then returns the product of all the processed sub-lists: -3 * -1 * 1 --> 3.
 
 For input, you can trust that neither the main list nor the sublists will be empty.*/

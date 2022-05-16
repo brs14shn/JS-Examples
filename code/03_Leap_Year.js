@@ -26,7 +26,6 @@ switch (month) {
   default:
     dayCount = -1; // invalid month
 }
-
 console.log(dayCount); // 29
 
 //HİNT:== in JavaScript is used for comparing two variables, but it ignores the datatype of variable.(if)

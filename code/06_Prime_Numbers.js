@@ -8,6 +8,7 @@ for(i=2;i<numbers;i++){
     if(numbers%i==0){
         count++
     }
+    
 if(count==0){
     console.log(`${numbers} is a prime number `)
 }
