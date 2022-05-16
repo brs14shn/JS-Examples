@@ -22,6 +22,7 @@ myPets.slice(1) //! ["Cat","Hamster"]
 
 const myPets=["Dog","Cat","Hamster"];
 
+
 myPets.splice(1,2,Lizard) //! [Dog,Lizard]
 //TODO: 1==>>Start parametres
 //TODO: 2==>> Delete Counter 
