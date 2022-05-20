@@ -27,4 +27,4 @@ let phonenumber=prompt("Enter a number")
     
     return format
   }
-console.log(createPhoneNumber(phonenumber);
+console.log(createPhoneNumber(phonenumber));
