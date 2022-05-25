@@ -11,7 +11,7 @@ let string="Elon Musk veya tam adıyla Elon Reeve Musk (d. 28 Haziran 1971, Pret
 /*“.“
 Sayfa ya da paragraf sonu dışındaki herhangi bir karakteri temsil eder. Örnek olarak “k.re” ifadesi “küre”, “kare”, “kore”, “kere” ile eşlenecektir.*/
 
-let regex=/s.z/g
+let regex=(/s.z/g)
 
 let match=string.match(regex)
 console.log(match)
