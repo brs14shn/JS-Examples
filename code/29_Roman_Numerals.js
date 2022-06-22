@@ -6,13 +6,14 @@ function solution(number){
     }
     
     for(let a in roman){
+      console.log(a)
       while(number>=roman[a]){
         rom+=a;
         number-=roman[a]
       }  
     }
-      console.log(rom) 
+      return rom
     }
     
     
-    (solution(8))
+    console.log(solution(8))
