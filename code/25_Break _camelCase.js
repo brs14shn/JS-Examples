@@ -16,7 +16,8 @@ function solution(string) {
   console.log(solution("camelCasing"));
   console.log(solution("identifier"));
   console.log(solution(""));
-
+  console.log(solution("camelCasingTest"));
+/*
   //!SOLUTİON-2
   function solution(string) {
     string = string.split('').map(function (el) {
@@ -26,7 +27,7 @@ function solution(string) {
       return el
     })
     return string.join('')
-  }
+  }*/
 
 
 
