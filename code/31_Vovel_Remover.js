@@ -11,3 +11,4 @@ const VovelRemover=(str)=>{
 }
 
 console.log(VovelRemover("Erhan"));
+console.log(VovelRemover("Barış"));
