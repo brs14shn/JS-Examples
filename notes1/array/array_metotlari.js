@@ -8,19 +8,19 @@ myPets.indexOf("Cat"); //!1
 
 // * 2-join -create a string from array items
 
-const myPets=["Dog","Cat","Hamster"];
+const myPets1=["Dog","Cat","Hamster"];
 
 myPets.join(" and "); // ! Dog and Cat and Hamster
 
 //* 3-slice -split an array at given index
 
-const myPets=["Dog","Cat","Hamster"];
+const myPets2=["Dog","Cat","Hamster"];
 
 myPets.slice(1) //! ["Cat","Hamster"]
 
 //* 4-splice-split an array and/or insert new items
 
-const myPets=["Dog","Cat","Hamster"];
+const myPets3=["Dog","Cat","Hamster"];
 
 
 myPets.splice(1,2,Lizard) //! [Dog,Lizard]
@@ -30,11 +30,11 @@ myPets.splice(1,2,Lizard) //! [Dog,Lizard]
 
 // * 5-FOREACH-->loop over an array and access each item
 
-const myPets=["Dog","Cat","Hamster"];
+const myPets4=["Dog","Cat","Hamster"];
 myPets.forEach(pet => console.log(pet)); //Dog Cat Hamster
 
 // * 6-FİLTER--create a new array based on a filter
-const numbers = [45, 4, 9, 16, 25];
+const num = [45, 4, 9, 16, 25];
 const over18 = numbers.filter(myFunction);
 
 function myFunction(value, index, array) {
@@ -57,7 +57,7 @@ console.log(values.flat()) //![1, 2, 3, 4, 4, 56, 5]
 
 //* 9- REDUCE - run a callback on each item and reduce the array to   "sigle value"
 
-const numbers = [45, 4, 9, 16, 25];
+const nums = [45, 4, 9, 16, 25];
 let sum = numbers.reduce(myFunction, 100);
 
 function myFunction(total, value) {
@@ -68,8 +68,8 @@ function myFunction(total, value) {
 
 //* 10 The findIndex() method returns the index of the first array element that passes a test function.
 
-const numbers = [4, 9, 16, 25, 29];
-let first = numbers.findIndex(myFunction);
+const num_one = [4, 9, 16, 25, 29];
+let first1 = numbers.findIndex(myFunction);
 
 function myFunction(value, index, array) {
   return value > 18;
@@ -77,7 +77,7 @@ function myFunction(value, index, array) {
 //!3
 
 //* 11 find() method returns the value of the first array element that passes a test function.
-const numbers = [4, 9, 16, 25, 29];
+const num2 = [4, 9, 16, 25, 29];
 let first = numbers.findIndex(myFunction);
 
 function myFunction(value, index, array) {
@@ -86,14 +86,14 @@ function myFunction(value, index, array) {
 //! 25
 
 // *12 -KEYS--returns an Array Iterator object with the keys of an array.
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits_ = ["Banana", "Orange", "Apple", "Mango"];
 const keys = fruits.keys();
 
 for (let x of keys) {
   text += x + "<br>";
 }
 //* 13 ENTRİES ==>>PAİR 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits__ = ["Banana", "Orange", "Apple", "Mango"];
 const f = fruits.entries();
 
 for (let x of f) {
@@ -107,8 +107,8 @@ for (let x of f) {
 //14-
 
 //*14 EVERY check if every item meets a condition
-const numbers = [45, 4, 9, 16, 25];
-let allOver18 = numbers.every(myFunction);
+const num3 = [45, 4, 9, 16, 25];
+let allOver_18 = numbers.every(myFunction);
 
 function myFunction(value) {
   return value > 18;
@@ -120,7 +120,7 @@ let allOver18 = numbers.every(myFunction);
 
 function myFunction(value) {
   return value > 18;
-
+}
 //! TRUE ==>>SİMİLİAR PYTHON ANY ===>>OR
 
 //* 16 SORT
@@ -128,5 +128,6 @@ function myFunction(value) {
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.sort();
 //TODO: for "number"
+
 const points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){return a - b});
+points.sort(function(a, b){return a - b})
