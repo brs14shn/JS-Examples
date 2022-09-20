@@ -91,3 +91,11 @@ const scores = { math: 50, English: 70, Physics: 45, Agric: 60 };
 const newScore=Object.values(scores) //! liste döner
 .map((score)=>score+5);
 console.log(newScore)  //*  [55,75,50,65]
+
+
+//* ASCII-CODE
+const string="Javascript";
+const stringArr=string.split("");
+const ascııArr=stringArr.map((el)=>el.charCodeAt(0))
+
+console.log(ascııArr);
